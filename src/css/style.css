@@ -1,0 +1,130 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'League Spartan', sans-serif;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.header {
+  width: 445px;
+}
+.title {
+  color: #512051;
+  font-size: 56px;
+  line-height: 48px;
+  letter-spacing: -2px;
+}
+.subtitle {
+  color: #927b91;
+  font-size: 19px;
+  line-height: 25px;
+  letter-spacing: -0.63px;
+}
+
+.rating {
+  position: relative;
+  width: 445px;
+  display: flex;
+  align-items: flex-start;
+  background-color: #f7f2f7;
+  padding: 20px 32px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.rating--first {
+  right: 150px;
+}
+.rating--second {
+  right: 80px;
+}
+.rating__images {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 32px;
+  width: 118px;
+  justify-content: space-between;
+}
+.rating__star {
+  width: 17px;
+}
+.rating__text {
+  color: #512051;
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0;
+}
+.reviews {
+  display: flex;
+  gap: 30px;
+}
+.review {
+  position: relative;
+  background-color: #512051;
+  border-radius: 8px;
+  width: 350px;
+  padding: 40px 32px 35px;
+}
+.review--second {
+  top: 30px;
+}
+.review--third {
+  top: 60px;
+}
+.review__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.review__image {
+  width: 40px;
+  border-radius: 50px;
+  margin-right: 23px;
+}
+
+.review__name {
+  font-size: 17px;
+  color: #fff;
+  font-weight: 700;
+  margin: 0;
+}
+.review__job {
+  font-size: 17px;
+  color: #ee69a4;
+  margin: 0;
+}
+.review__opinion {
+  color: #fff;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 0.3px;
+}
